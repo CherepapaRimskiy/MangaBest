@@ -1,0 +1,305 @@
+*{
+    margin: 0px;
+}
+
+@font-face {
+    font-family: "Aurach-Bi";
+    src: url(../font/Aurach-Bi.ttf);
+}
+
+body{
+    background-color: black;
+    color:white;
+    font-family: Aurach-Bi;
+}
+.main{
+    background-color: rgb(43, 43, 43);
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+.header{
+    background-color: rgb(43, 43, 43);
+    padding-bottom: 2%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 100%;
+}
+.footer{
+    background-color: rgb(43, 43, 43);
+    padding-top: 2%;
+}
+.zag{
+
+    margin-top: 5%;
+    font-size: +50px;
+    margin-left: 2%;
+    text-align: center;
+}
+.green{
+    color:rgb(30, 255, 0)
+}
+
+.left{
+    margin-left: 95%;
+}
+.mien{
+    margin-top: 45%;
+    display: grid;
+    cursor:pointer;
+    margin-right: 5%;
+}
+.block{
+    background-color: white;
+    width: 50px;
+    height: 4px;
+    margin-top: 10%;
+}
+
+
+
+.font-size{
+  
+  
+
+    font-size: +35px;
+  
+
+}
+
+.point{
+    cursor:pointer;
+    text-align: center;
+}
+.hov{
+    text-align: center;
+}
+
+
+.zag{
+        animation-duration: 1.5s;
+        animation-name: svet;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      
+}
+
+@keyframes svet{
+   from{
+    text-shadow: rgb(30, 255, 0) 0px 0px 0px;
+   }
+
+    to{ 
+        text-shadow: rgb(30, 255, 0) 0px 0px 7px;
+        
+    }
+}
+
+.drop-menu:hover .dropmenu-content {
+    visibility: visible;
+    opacity: 1;
+}
+
+.dropmenu-content{
+    position: absolute;
+    background-color: rgb(43, 43, 43);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.drop-menu{
+    margin-left: 90%;
+    padding-top: 2%;
+    position: absolute;
+    
+    
+}
+.dropmenu-content div > a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+}
+.dropmenu-content > div:hover {
+    background-color: gray;
+}
+.dropmenu-content > div > a::after {
+    border-left: 10px transparent solid;
+}
+
+.drop-menu > a:hover {
+    color: rgb(30, 255, 0);
+    transition: 0.2s;
+    text-shadow: rgb(30, 255, 0) 0px 0px 7px;
+}
+.drop-menu > a:not(:hover) {
+
+    transition: 0.2s;
+
+}
+.text{
+    padding: 12px 16px;
+}
+
+.Zag-Main{
+    font-size: +35px;
+    text-align: center;
+   
+}
+.main2{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+
+}
+
+.img-hov:hover{
+    border:5px solid rgb(30, 255, 0);
+    box-shadow: 0 0 25px rgb(30, 255, 0);;
+}
+.img-hov{
+    border:5px solid gray;;
+    border-radius: 5px;
+}
+figcaption{
+    font-size: +25px;
+}
+figure{
+padding-bottom: 50px;
+float: left;
+
+}
+.none-dec{
+    text-decoration: none;
+    color:white;
+}
+
+
+.drop-menu2:hover .dropmenu-content2 {
+    visibility: visible;
+    opacity: 1;
+}
+.dropmenu-content2{
+    position: absolute;
+    background-color: rgb(43, 43, 43);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    margin-left: 6.5%;
+   
+}
+
+
+
+.drop-menu2{
+    padding-top: 3%;
+    margin-left: 1%; 
+    
+}
+.dropmenu-content2 div > a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 14px;
+}
+.dropmenu-content2 > div:hover {
+    background-color: gray;
+}
+.dropmenu-content2 > div > a::after {
+    border-left: 10px transparent solid;
+}
+
+.drop-menu2 > a:hover {
+    color: rgb(30, 255, 0);
+    transition: 0.2s;
+    text-shadow: rgb(30, 255, 0) 0px 0px 7px;
+}
+.drop-menu2 > a:not(:hover) {
+
+    transition: 0.2s;
+}
+.main2-2{
+    display: grid;
+    grid-template-columns: 25% 65%;
+    text-align: center;
+
+}
+
+.prob{
+    margin-left: 20%;
+}
+
+tr{
+    
+    border-bottom: 1px solid grey;
+}
+td:nth-child(2){
+    width: 150px;
+    text-align: center;
+    border: 1px solid grey;
+   
+}
+table{
+    border-spacing: 15px;
+}
+.main2-3{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.green-hov:hover{
+    color:rgb(30, 255, 0);
+}
+.otstup{
+    padding-bottom: 23.5%;
+}
+body::-webkit-scrollbar{
+    width: 10px;
+}
+body::-webkit-scrollbar-track{
+    background: black;
+}
+body::-webkit-scrollbar-thumb{
+    background-color:rgb(30, 255, 0);
+    border-radius: 15px;
+    border: 3px solid black;
+}
+
+button{
+    border: 2px solid rgb(30, 255, 0);
+    border-radius: 5px;
+    font-size: +25px;
+    background-color: rgb(43, 43, 43);
+    color:white;
+    margin: 50px;
+}
+button:hover{
+    background-color: rgb(85, 85, 85);
+    box-shadow: 0 0 10px rgb(30, 255, 0);
+}
+
+input{
+    border: 2px solid rgb(30, 255, 0);
+    background-color: rgb(43, 43, 43);
+    color:white;
+    margin-top:1%;
+    height: 35px;
+    width: 150px;
+}
+#reg:hover ,#log:hover{
+    background-color: rgb(85, 85, 85);
+    box-shadow: 0 0 10px rgb(30, 255, 0);
+}
+
+.user{
+   
+    margin-top: 3.8%;
+    margin-left: 75%;
+}

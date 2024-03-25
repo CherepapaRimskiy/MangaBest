@@ -1,0 +1,39 @@
+@keyframes particles {
+  from {
+    transform: translateY(0px);
+      box-shadow: 0 0 white, 1408px 312px white, 297px 1760px white, 601px 1087px white, 634px 240px white, 1746px 678px white, 1697px 37px white, 214px 902px white, 877px 39px white, 1569px 4px white, 401px 184px white, 1025px 1134px white, 1080px 1306px white, 499px 337px white, 1508px 2232px white, 2204px 1556px white, 586px 1879px white, 344px 863px white, 1204px 471px white, 673px 1248px white, 573px 1832px white, 1845px 259px white, 559px 1055px white, 1680px 902px white, 2311px 1833px white, 736px 1025px white, 1390px 1116px white, 2450px 1794px white, 1897px 2148px white, 770px 1959px white, 2023px 2365px white, 991px 1423px white, 1590px 585px white, 1854px 1021px white, 691px 2464px white, 552px 471px white, 418px 2471px white, 1623px 40px white, 662px 199px white, 1837px 635px white, 2016px 1020px white, 2142px 2041px white, 44px 868px white, 271px 656px white, 2248px 1267px white, 2027px 31px white, 204px 1675px white, 620px 147px white, 1894px 821px white, 2105px 1353px white, 2237px 1282px white, 375px 766px white, 379px 2135px white, 2321px 78px white, 91px 2160px white, 8px 909px white, 2547px 1557px white, 542px 1439px white, 2264px 50px white, 555px 521px white, 2071px 815px white, 2296px 221px white, 73px 2523px white, 2391px 213px white, 2290px 405px white, 1594px 1130px white, 141px 2397px white, 1402px 829px white, 2264px 238px white, 1401px 2455px white, 1390px 1994px white, 954px 620px white, 581px 1433px white, 857px 1481px white, 672px 2066px white, 423px 1928px white, 2244px 1606px white, 2297px 2053px white, 1195px 433px white, 1260px 257px white, 260px 56px white, 498px 548px white, 2142px 334px white, 2454px 7px white, 1312px 327px white, 1663px 214px white, 1239px 1430px white, 1118px 589px white, 682px 1513px white, 2264px 1314px white, 1342px 685px white, 1896px 1059px white, 79px 1580px white, 2027px 371px white, 1864px 2199px white, 854px 1791px white, 312px 1262px white, 1521px 1532px white, 308px 2540px white, 2433px 1124px white, 2291px 25px white, 740px 63px white, 2022px 2349px white, 2164px 393px white, 1911px 1363px white, 719px 434px white, 493px 288px white, 2442px 9px white, 134px 1429px white, 828px 2081px white, 1133px 1356px white, 249px 2361px white, 1839px 1029px white, 570px 1160px white, 325px 429px white, 2522px 225px white, 373px 1763px white, 541px 856px white, 189px 2319px white, 1035px 823px white, 65px 1417px white, 2520px 2410px white, 111px 323px white, 460px 1308px white, 2153px 495px white, 733px 87px white, 1523px 2059px white, 2465px 393px white, 2480px 2181px white, 2244px 1716px white, 454px 664px white, 1914px 1365px white, 1648px 1518px white, 966px 1235px white, 2053px 677px white, 1082px 1209px white, 1995px 1355px white, 1222px 781px white, 2463px 54px white, 607px 580px white, 1109px 1434px white, 1363px 1496px white, 1709px 423px white, 1655px 193px white, 692px 2461px white, 930px 28px white, 659px 1425px white, 1689px 299px white, 1134px 1220px white, 776px 2488px white, 1332px 927px white, 1809px 44px white, 208px 1681px white, 1812px 909px white, 202px 356px white, 294px 1502px white, 2155px 2437px white, 2137px 228px white, 92px 144px white, 253px 844px white, 2488px 82px white, 1704px 2512px white, 1047px 1459px white, 425px 1071px white, 2170px 2036px white, 13px 374px white, 288px 2127px white, 1914px 1622px white, 1980px 967px white, 1960px 2268px white, 2269px 1563px white, 2134px 767px white, 1817px 2369px white, 1458px 229px white, 1976px 654px white, 956px 537px white, 1342px 1321px white, 2251px 1093px white, 218px 2282px white, 1340px 1587px white, 173px 1701px white, 1449px 1377px white, 1350px 416px white, 1527px 1167px white, 1135px 784px white, 2006px 1526px white, 864px 2195px white, 2464px 2346px white, 913px 896px white, 1642px 626px white, 782px 367px white, 593px 2423px white, 1005px 1391px white, 2162px 1849px white, 1299px 1735px white, 2393px 74px white, 2472px 439px white, 946px 2430px white, 1432px 1628px white, 2010px 293px white, 1265px 136px white;
+
+  }
+  to {
+    transform: translateY(-2560px);
+
+  }
+}
+
+.space {
+
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(black,rgb(61, 61, 61),black);
+ 
+}
+
+.particle,
+.particle::after {
+  background: transparent;
+}
+
+.particle::after {
+
+  content: '';
+  top: 100%;
+}
+
+
+.particle {
+  animation: particles 120s linear infinite  ;
+}
+.particle, .particle::after {
+  width: 3px;
+  height: 3px;
+}
